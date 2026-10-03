@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css selectors</title>
+    <style>
+        *{
+            background-color: aqua;
+        }
+        /* h1{
+            background-color: red;
+        }
+        p{
+            background-color: chartreuse;
+        } */
+         .ak{
+            background-color: seagreen;
+         }
+         #A{
+            background-color: violet;
+         }
+
+         #Y{
+            background-color: pink;
+         }
+         /* .parent >p{
+            background-color: yellow;
+         }
+          */
+          .parent p{
+            background-color: red;
+          }
+
+          li:first-child{
+            background-color: blue;
+          }
+          li:last-child{
+            background-color: grey;
+          }
+          li:nth-child(3){
+            background-color: cadetblue;
+          }
+          a:link{
+            color:green;
+          }
+          a:visited{
+            color: red;
+          }
+          a:active{
+            color: greenyellow;
+          }
+          a:hover{
+            color: blue;
+          }
+          
+
+    </style>
+</head>
+<body>
+    <!--Class selectors-->
+    <h1 class="ak">Css selectors</h1>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi repudiandae id voluptates aliquid maxime neque expedita labore animi minima quaerat.</p>
+
+    <!--Id selectors-->
+    <h2 id="A">This is brand new h2 tag</h2>
+    <h3 id="Y">This is another heading</h3>
+
+    <!--Class selectors-->
+    <!-- <ul class="ak">
+        <li>Superman</li>
+        <li>Spiderman</li>
+        <li>Thor</li>
+    </ul> -->
+
+    <!--Class selectors-->
+<p class="ak">This is brand new paragraph</p>
+
+<!--Child selectors-->
+<div class="parent">
+    <p>child - 1</p>
+    <p>child - 2</p>
+    <div>
+        <p>child - 3</p>
+    </div>
+</div>
+
+<ul>
+    <li>Superman</li>
+    <li>Spiderman</li>
+    <li>Batman</li>
+    <li>Thor</li>
+</ul>
+
+<a href="https://www.youtube.com/" target="_blank">Normal link</a>
+
+<a href="https://www.youtube.com/" target="_blank">Visited link</a>
+
+<a href="https://www.youtube.com/" target="_blank">Hover link</a>
+
+<a href="https://www.youtube.com/" target="_blank">Active link</a>
+
+
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis magni atque maiores molestias provident earum temporibus dicta animi nobis pariatur doloremque saepe at iure in ipsa culpa, dolorem libero doloribus ab architecto cupiditate recusandae. Corporis laudantium beatae enim quibusdam est ab ullam. Ut hic praesentium, quisquam ex fuga unde quam.</p>
+
+
+
+
+
+
+</body>
+</html>
